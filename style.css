@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .link-button {
@@ -38,11 +38,84 @@ h1 {
     background-color: rgb(241, 54, 54);
     color: white;
     padding: 5px 10px;
-    margin-top: 10px;
+    margin-top: 3%;
     border-radius: 5px;
 }
 
 .link-button:hover {
     background-color: white;
     color: red;
+}
+
+.second-section {
+    display: flex;
+}
+
+.flex-section {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.flex-section img {
+    width: 100%;
+
+}
+
+.second-flex {
+    margin-top: 20%;
+    text-align: justify;
+
+}
+
+.third-section {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+
+#back {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1em;
+    width: 800px;
+    height: 400px;
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+.grid {
+    display: flex;
+
+}
+
+
+.grid {
+
+    background-color: rgb(234, 228, 221);
+    padding: 15px;
+    border-radius: 10px;
+
+
+
+}
+
+
+.gird-img {
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+#paa {
+    color: red;
+
+
+
 }
